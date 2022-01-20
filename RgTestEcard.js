@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-//const { first } = require("cypress/types/lodash");
-
 it("RG sent ecard test", function () {
     //log in
     cy.visit('https://example.rewardgateway.co.uk/Authentication/Start');
